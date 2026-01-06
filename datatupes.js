@@ -37,6 +37,13 @@ let obj =   {
 
 console.log(obj);
 
+let jsonStr = JSON.stringify(obj);
+console.log(JSON.stringify(obj));
+
+console.log(` testing json ` + jsonStr);
+
+
+
 
 //array
 let arrays1 = [ `BMW`, `BENZ`, `FIAT`];
